@@ -1,6 +1,0 @@
-c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\bin\Debug\Magic8Ball.exe.config
-c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\bin\Debug\Magic8Ball.exe
-c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\bin\Debug\Magic8Ball.pdb
-c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\obj\Debug\Magic8Ball.csprojResolveAssemblyReference.cache
-c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\obj\Debug\Magic8Ball.exe
-c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\obj\Debug\Magic8Ball.pdb

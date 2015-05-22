@@ -30,22 +30,22 @@ namespace Magic8Ball
             //Create a randomizer object
             Random randomObject = new Random();
 
-            //Loop forever!!!!! AND EVERR!!!(@&*@&&(&@(@&(!&!(& ERRRRRRR
+            //Loop forever AND EVER HAHAHAHAHAAHAHAAHAHAHA!!!!!!!!!!!!!!!!!!!
             while(true)
             {
                 string questionString = GetQuestionFromUser();
 
                 int numberOfSecondsToSleep = randomObject.Next(5) + 1;
-                Console.WriteLine("Thinking about your answer, stand by...");
+                Console.WriteLine("Processing answer, please stand by...");
                 Thread.Sleep(numberOfSecondsToSleep * 1000);
 
                 if( questionString.Length == 0)
                 {
-                    Console.WriteLine("you need to type a question fool");
+                    Console.WriteLine("you need to type a question or who knows what's going to happen");
                     continue;
                 }
 
-                //See if the user typed "quit" as the question
+                //Ensure that the user typed "quit" as the question
                 if( questionString.ToLower() == "quit")
                 {
                     break;
@@ -55,6 +55,27 @@ namespace Magic8Ball
                 if( questionString.ToLower() == "you suck")
                 {
                     Console.WriteLine("You suck even more! Bye!");
+                    break;
+                }
+
+                //if the user insults technology kick them out
+                if( questionString.ToLower() == "technology sucks")
+                {
+                    Console.WriteLine("Well you suck a LOT more than your wheel, bye!!!!!!!!!!!!!!!!!!!");
+                    break;
+                }
+
+                //If the user insults with 'you are horrible' kick them out
+                if( questionString.ToLower() == "you are horrible")
+                {
+                    Console.WriteLine("Well you are more horrible, goodbye!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                    break;
+                }
+
+                //If the user insults with 'you are terrible' kick them out
+                if( questionString.ToLower() == "you are terrible")
+                {
+                    Console.WriteLine("Well you are more terrible, goodbye!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
                     break;
                 }
                 //Get a random #
@@ -74,7 +95,6 @@ namespace Magic8Ball
                         {
                             Console.WriteLine("NO!");
                             break;
-
                         }
                     case 2:
                         {
@@ -102,9 +122,9 @@ namespace Magic8Ball
         static void TellPeopleWhatProgramThisIs()
         {
             //Change console text color
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.Write("M");
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("agic 8 Ball (by: ComputerWhiz)");
         }
 
@@ -114,7 +134,7 @@ namespace Magic8Ball
         /// <returns></returns>
         static string GetQuestionFromUser()
         {
-            // This block of code will ask the uuser for a question
+            // This block of code will ask the user for a question
             // and store the question text in questionString variable
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("Ask a question?:");
