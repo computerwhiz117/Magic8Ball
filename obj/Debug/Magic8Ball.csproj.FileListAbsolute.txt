@@ -4,3 +4,10 @@ c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\bin\Debug\Magic
 c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\obj\Debug\Magic8Ball.csprojResolveAssemblyReference.cache
 c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\obj\Debug\Magic8Ball.exe
 c:\users\carlos\documents\visual studio 2013\Projects\Magic8Ball\obj\Debug\Magic8Ball.pdb
+C:\Users\Carlos\source\repos\Magic8Ball\bin\Debug\Magic8Ball.exe.config
+C:\Users\Carlos\source\repos\Magic8Ball\bin\Debug\Magic8Ball.exe
+C:\Users\Carlos\source\repos\Magic8Ball\bin\Debug\Magic8Ball.pdb
+C:\Users\Carlos\source\repos\Magic8Ball\obj\Debug\Magic8Ball.csprojAssemblyReference.cache
+C:\Users\Carlos\source\repos\Magic8Ball\obj\Debug\Magic8Ball.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\source\repos\Magic8Ball\obj\Debug\Magic8Ball.exe
+C:\Users\Carlos\source\repos\Magic8Ball\obj\Debug\Magic8Ball.pdb
